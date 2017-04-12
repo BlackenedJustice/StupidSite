@@ -7,6 +7,10 @@ h1 {
     margin-top: 0px;
 }
 
+li {
+    list-style-type: none;
+}
+
 .logo {
     position: absolute;
 	width: 70px;
@@ -17,11 +21,18 @@ h1 {
 .hat {
     margin-bottom: 10px;
     padding-bottom: 10px;
+    
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: black;
 }
 
 .menu {
-    text-align: left;
+    border-right-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+ul.nomarker {
+    padding-left: 10px;
 }
