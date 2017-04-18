@@ -3,15 +3,25 @@ html {
 }
 
 body {
-	background-color: #6495ED;
+	background-color: #fff;
     z-index: 99;
     height: 100vh;
     font-size: 14pt;
+    margin: 0px;
+}
+
+hr.top {
+    background-color: #00296b;
+    margin-top: 0px;
+    padding-top 5px;
 }
 
 h1 {
-    text-align: center;
+    align-self: center;
+    color: white;
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 h3 {
@@ -30,21 +40,27 @@ hr {
 }
 
 .logo {
-    position: absolute;
-	width: 70px;
-	height: 70px;
+	width: 65px;
+	height: 62px;
     float: left;
+    display: block;
+    align-self: center;
+    padding-top: 7px;
 }
 
 .hat {
+    flex-direction: row;
+    display: flex;
     margin-bottom: 10px;
     padding-bottom: 10px;
     
     margin-bottom: 0px;
+    
+    background-color: #00296b;
 }
 
 .menu {
-    border-right-color: black;
+    border-right-color: darkgray;
     border-right-width: 2px;
     border-right-style: solid;
     display: inline-block;
