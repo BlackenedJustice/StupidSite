@@ -66,9 +66,10 @@ hr {
     border-right-width: 2px;
     border-right-style: solid;
     display: inline-block;
-    width: 20%;
+    
     height: inherit;
 }
+
 ul.nomarker {
     padding-left: 10px;
 }
